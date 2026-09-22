@@ -21,8 +21,8 @@ class employeeFactory extends Factory
             'name' => fake()->name(),
             'email' => fake()->unique()->safeEmail(),
             'address' => fake()->address(),
-            'deparments' => fake()->randomElement(['CAST', 'CCJ', 'CON', 'CABM']),
-            'attendace' => fake()->boolean()
+            'departments' => fake()->randomElement(['CAST', 'CCJ', 'CON', 'CABM']),
+            'attendance' => fake()->boolean()
         ];
     }
 }

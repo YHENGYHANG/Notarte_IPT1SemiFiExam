@@ -17,7 +17,7 @@ return new class extends Migration
         $table->text('email');
         $table->longText('address');
         $table->string('departments');
-        $table->boolean('attendace');
+        $table->boolean('attendance');
         $table->timestamps();
         });
     }

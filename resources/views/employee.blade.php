@@ -26,7 +26,7 @@
                     <td>{{ $employee->email }}</td>
                     <td>{{ $employee->address }}</td>
                     <td>{{ $employee->departments }}</td>
-                    <td>{{ $employee->attendace }}</td>
+                    <td>{{ $employee->attendance }}</td>
                 </tr>
             @endforeach
         </tbody>
