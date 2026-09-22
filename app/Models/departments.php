@@ -1,0 +1,11 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class departments extends Model
+{
+    protected $fillable = ['dept_name', 'course', 'year'];
+
+}
